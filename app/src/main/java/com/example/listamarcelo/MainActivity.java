@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         pokemons.add(new PokemonLegendario("Rayquaza", "Dragón/Volador - Hoenn", R.drawable.raiquaza));
         pokemons.add(new PokemonLegendario("Reshiram", "Dragón/Fuego - Teselia", R.drawable.reshiram));
         pokemons.add(new PokemonLegendario("Zekrom", "Dragón/Eléctrico - Teselia", R.drawable.zekrom));
+        pokemons.add(new PokemonLegendario("Giratina", "Dragón/Fantasma - Sinnoh", R.drawable.giratina));
+        pokemons.add(new PokemonLegendario("Lugia", "Volador/Psiquico - Johto", R.drawable.lugia));
+        pokemons.add(new PokemonLegendario("Ho-oh", "Volador/Fuego - Johto", R.drawable.hooh));
 
         RecyclerView rvLista = findViewById(R.id.rvLista);
         rvLista.setLayoutManager(new LinearLayoutManager(this));
