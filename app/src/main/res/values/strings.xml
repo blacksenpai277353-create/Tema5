@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">EjeTema5</string>
-    <string name="correo">Correo</string>
-    <string name="contraseña">Contraseña</string>
-    <string name="recordar">¿Recordar?</string>
-
+    <string name="app_name">ListaMarcelo</string>
 </resources>

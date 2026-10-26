@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ejetema5"
+    namespace = "com.example.listamarcelo"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.ejetema5"
+        applicationId = "com.example.listamarcelo"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

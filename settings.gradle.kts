@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EjeTema5"
+rootProject.name = "ListaMarcelo"
 include(":app")
- 

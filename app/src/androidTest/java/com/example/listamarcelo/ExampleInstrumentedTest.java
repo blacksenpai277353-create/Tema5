@@ -1,4 +1,4 @@
-package com.example.ejetema5;
+package com.example.listamarcelo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.ejetema5", appContext.getPackageName());
+        assertEquals("com.example.listamarcelo", appContext.getPackageName());
     }
 }
