@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -47,6 +48,12 @@ public class AdaptadorPokemons
         holder.tvTitulo.setText(pokemon.getNombre());
         holder.tvSubtitulo.setText(pokemon.getTipo());
         holder.ivImagen.setImageResource(pokemon.getImagen());
+
+        // Al tocar la fila, un Toast con su título
+        holder.itemView.setOnClickListener(v ->
+                Toast.makeText(v.getContext(),
+                        pokemon.getNombre(),
+                        Toast.LENGTH_SHORT).show());
     }
 
     @Override
