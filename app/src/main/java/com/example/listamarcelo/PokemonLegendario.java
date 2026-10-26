@@ -4,7 +4,7 @@ public class PokemonLegendario {
 
     private String nombre;
     private String tipo;
-    private int imagen; // el recurso de la imagen: R.drawable.algo
+    private int imagen;
 
     public PokemonLegendario(String nombre, String tipo, int imagen) {
         this.nombre = nombre;

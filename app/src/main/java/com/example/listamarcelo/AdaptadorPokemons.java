@@ -12,8 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class AdaptadorPokemons
-        extends RecyclerView.Adapter<AdaptadorPokemons.ViewHolder> {
+public class AdaptadorPokemons extends RecyclerView.Adapter<AdaptadorPokemons.ViewHolder> {
 
     private final ArrayList<PokemonLegendario> pokemons;
 
@@ -49,7 +48,6 @@ public class AdaptadorPokemons
         holder.tvSubtitulo.setText(pokemon.getTipo());
         holder.ivImagen.setImageResource(pokemon.getImagen());
 
-        // Al tocar la fila, un Toast con su título
         holder.itemView.setOnClickListener(v ->
                 Toast.makeText(v.getContext(),
                         pokemon.getNombre(),

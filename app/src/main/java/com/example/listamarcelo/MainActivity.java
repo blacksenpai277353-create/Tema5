@@ -26,18 +26,16 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // 1. Los datos: al menos 8 elementos
         ArrayList<PokemonLegendario> pokemons = new ArrayList<>();
-        pokemons.add(new PokemonLegendario("Mewtwo", "Psíquico - Kanto", R.drawable.mewtwo));
-        pokemons.add(new PokemonLegendario("Lugia", "Psíquico/Volador - Johto", R.drawable.lugia));
-        pokemons.add(new PokemonLegendario("Ho-Oh", "Fuego/Volador - Johto", R.drawable.hooh));
-        pokemons.add(new PokemonLegendario("Rayquaza", "Dragón/Volador - Hoenn", R.drawable.rayquaza));
-        pokemons.add(new PokemonLegendario("Kyogre", "Agua - Hoenn", R.drawable.kyogre));
-        pokemons.add(new PokemonLegendario("Groudon", "Tierra - Hoenn", R.drawable.groudon));
         pokemons.add(new PokemonLegendario("Dialga", "Acero/Dragón - Sinnoh", R.drawable.dialga));
-        pokemons.add(new PokemonLegendario("Arceus", "Normal - Sinnoh", R.drawable.arceus));
+        pokemons.add(new PokemonLegendario("Palkia", "Agua/Dragón - Sinnoh", R.drawable.palkia));
+        pokemons.add(new PokemonLegendario("Rayquaza", "Dragón/Volador - Hoenn", R.drawable.raiquaza));
+        pokemons.add(new PokemonLegendario("Reshiram", "Dragón/Fuego - Teselia", R.drawable.reshiram));
+        pokemons.add(new PokemonLegendario("Zekrom", "Dragón/Eléctrico - Teselia", R.drawable.zekrom));
+        pokemons.add(new PokemonLegendario("Giratina", "Fantasma/Dragón - Sinnoh", R.drawable.dialga));
+        pokemons.add(new PokemonLegendario("Kyurem", "Dragón/Hielo - Teselia", R.drawable.reshiram));
+        pokemons.add(new PokemonLegendario("Arceus", "Normal - Sinnoh", R.drawable.zekrom));
 
-        // 2. La lista: cómo se colocan las filas y quién las pinta
         RecyclerView rvLista = findViewById(R.id.rvLista);
         rvLista.setLayoutManager(new LinearLayoutManager(this));
         rvLista.addItemDecoration(

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ListaMarcelo</string>
-    <string name="imagen_elemento">Imagen del elemento</string>
+    <string name="imagen_elemento">Imagen del Pokémon</string>
     <string name="cabecera">Los Pokémon legendarios de Marcelo</string>
 </resources>
